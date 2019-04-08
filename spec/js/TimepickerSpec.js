@@ -80,7 +80,7 @@ describe('Timepicker feature', function() {
   });
 
   it('should be configurable with data attributes', function() {
-    $('body').append('<div id="hi" class="bootstrap-timepicker"><input id="customTimepicker" data-template="modal" data-minute-step="30" data-modal-backdrop="true" data-show-meridian="true" type="text"/></div');
+    $('body').append('<div id="hi" class="bootstrap-timepicker"><input id="customTimepicker" data-template="modal" data-minute-step="30" data-modal-backdrop="true" data-show-meridian="true" type="text"/></div>');
 
     var $customInput = $('body').find('#customTimepicker'),
         tpCustom = $customInput.timepicker().data('timepicker');
